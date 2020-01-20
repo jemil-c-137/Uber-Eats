@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.logo_menu {
+    position: fixed;
+    width: 100%;
+    background: #FFFFFF;
+box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.sign-in {
+        background: none;
+        cursor: pointer;
+        border: none;
+}
+
+.basket {
+        background: none;
+        cursor: pointer;
+        border: none;
+}
+
+@media (max-width: 600px) {
+    .basket {
+        display: none;
+    }
+}
+
+.store_card {
+    background-image: url(restaurant/world.svg);
+    background-size: cover;
+}
+
+.restaurants {
+    padding-top: 50px;
+}
+
+.h1 {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 34px;
+display: flex;
+align-items: center;
+
+color: #1D1D1D;
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+    padding-top: 16px;
+    margin: 0;
+}
+
+h4 {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #626262;
+padding-top: 4px;
+margin: 0;
+}
+
+.card_time {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #1D1D1D;
+padding-top: 4px;
+margin: 0;
+padding-bottom: 20px;
+}
+
+
+.container-fluid {
+    max-width: 1219px;
+}
+
+
+ 
+.footer {
+    background: #262626;
+}
+
+.footer_logo {
+    border-bottom: 1px solid #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.white_logo {
+    padding: 40px 0 40px 0;
+    
+}
+
+.footer_bar {
+    border-bottom: 1px solid #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.footer_bar_column_right {
+    padding-top: 32px;
+}
+
+.footer_menu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    
+}
+
+.footer_social {
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.footer_apps {
+    border-bottom: 1px solid #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.footer_app_images > svg {
+   margin: 40px;
+}
+
+.footer_rights {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 13px;
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+
